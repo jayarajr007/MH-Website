@@ -1,0 +1,87 @@
+.pattern-bg
+{
+    background:url('../img/bannerpattern.png');
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.bg-color1
+{
+    background: #FFF8FA;
+}
+.bg-color2
+{
+    background: #FFFCF3;
+}
+
+.card-concept-vid iframe
+{
+    border-radius: 14px;
+    overflow: hidden;
+}
+.flashcard-box
+{
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+.flashcard-box a
+{
+position: absolute;
+right: 15px;
+bottom: 10px;
+}
+.card--flashcards p
+{
+    font-family: 'Poppins-Medium';
+    margin-top: 15px;
+    color: #333333;
+}
+.concept-video-sec p
+{
+    font-family: 'Poppins-Medium';
+    margin-top: 15px;
+    color: #333333;
+}
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-play-control .vjs-icon-placeholder:before, .vjs-icon-play:before {
+    content: url('../img/play-video-icon.png');
+   
+}
+.bc-player-UEoNyhSA6_default .vjs-big-play-button:active, .bc-player-UEoNyhSA6_default .vjs-big-play-button:focus, .bc-player-UEoNyhSA6_default:active .vjs-big-play-button, .bc-player-UEoNyhSA6_default:hover .vjs-big-play-button {
+    background-color: #ed396c3d !important;
+  }
+  .border-bottom
+  {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .download-flashcard
+  {
+    position: absolute;
+
+  }
+  .slider-navigator
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-navigator li
+{
+    min-width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.flashcard-box:hover svg rect
+{
+    fill: #ed396c !important;
+    transition: all 0.3s ease-in-out;
+}
+.flashcard-box:hover svg path
+{
+    fill: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
