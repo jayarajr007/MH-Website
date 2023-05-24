@@ -1,0 +1,219 @@
+.pattern-bg
+{
+    background:url('../img/bannerpattern.png');
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.bg-color1
+{
+    background: #FFF8FA;
+}
+.features-card
+{
+    margin-bottom: 35px;
+}
+.features-card h3
+{
+ font-family: 'Poppins-SemiBold';
+}
+
+.enrol-section
+{
+    background: #FFF5DC;
+    border-radius: 13px;
+    padding: 26px;
+    transition: all 0.3s ease-in-out;
+}
+.enrol-section:hover
+{
+    box-shadow: 1px 4px 18px #c3c3c340;
+    transition: all 0.3s ease-in-out;
+}
+.enrol-section h3
+{
+    font-size: 19px;
+    font-family: 'Poppins-SemiBold';
+    padding: 3px 0px 17px 0px;
+    border-bottom: 1px solid #959595;
+    margin: 0px;
+}
+.enrol-section h1
+{
+
+    margin: 0px;
+    font-family: 'Poppins-Bold';
+    color: #ed396c;
+}
+
+.enrol-section .c-fee
+{
+    margin: 7px 0px;
+    display: block;
+    font-family: 'Poppins-SemiBold';
+}
+.enrol-section .c-tax
+{
+    margin: 2px 0px;
+    display: block;
+    font-size: 14px;
+    color: #626262;
+}
+.c-timing
+{
+    padding: 10px 0px;
+    border-bottom: 1px dashed #626262;
+    margin-bottom: 20px;
+}
+.c-fee-section
+{
+    padding: 10px 0px;
+    border-bottom: 1px dashed #626262;
+}
+.enrol-section h4
+{
+    margin: 0px;
+    margin: 14px 0px;
+    font-size: 18px;
+
+    font-family: 'Poppins-SemiBold';
+}
+.enrol-section .timing-list
+{
+list-style: none;
+padding: 0px;
+margin: 4px 0px;
+display: flex;
+}
+.enrol-section .class-start-date
+{
+    font-size: 15px;
+    text-align: center;
+    margin: 11px 0px 5px;
+    color: #3c3c3c;
+}
+.enrol-section .timing-list li
+{
+    font-size: 15px;
+    width: 50%;
+}
+.enrol-section .timing-list li:nth-child(2)
+{
+   color: #000;
+   font-family: 'Poppins-Medium';
+}
+.slider-navigator
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.slider-navigator li
+{
+    min-width: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.interactive iframe
+{
+    border-radius: 9px;
+    overflow: hidden;
+}
+.interactive p
+{
+    font-family: 'Poppins-Medium';
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mh-page-banner-image
+    {
+        width: 400px !IMPORTANT;
+        margin: auto;
+        display: block;
+        margin-bottom: 24px;
+    }
+    
+}
+
+
+/*-------------------New------------------------*/
+
+.DR-banner-bg
+{
+    background:url('../img/DRbanner.jpg');
+
+    background-size: auto;
+    background-repeat: no-repeat; 
+}
+.register-sec
+{
+    background: #fff;
+    padding: 12px 16px 27px 16px;
+    border-radius: 14px;
+    max-width: 342px;
+
+}
+.DR-Banner-head
+{
+    font-family: 'Poppins-SemiBold' !important;
+    margin: 0px;
+    padding: 14px 0px;
+}
+.register-sec label
+{
+    font-size: 14px;
+}
+.register-sec .form-control
+{
+font-size: 14px;
+}
+ul.list-date
+{
+    padding: 0px;
+
+}
+ul.list-date li
+{
+    display: inline-block;
+    list-style-type: none;
+}
+.resources-list
+{
+background: #fff;
+border-radius: 6px;
+box-shadow: 0px 1px 20px rgba(0,0,0,0.07);
+padding: 10px;
+}
+.DR-download
+{
+    max-width: 206px;
+}
+.resources-list h3
+{
+    font-family: 'Poppins-SemiBold' !important;
+    color: #333333;
+    margin: 8px 0px 10px;
+}
+.resources-list p
+{
+    color: #333333;
+}
+.resources-list .type
+{
+    background: #d4e1fa;
+    FONT-SIZE: 1;
+    FONT-SIZE: 14PX;
+    PADDING: 4PX 17PX;
+    DISPLAY: BLOCK;
+    BORDER-RADIUS: 21PX;
+    MARGIN-LEFT: 10PX;
+}
+.DR-error
+{
+    border: 1px solid red;
+}
