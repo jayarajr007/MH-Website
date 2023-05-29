@@ -215,5 +215,10 @@ padding: 10px;
 }
 .DR-error
 {
-    border: 1px solid red;
+    border: 1px solid red !important;
+}
+.DR-error-message
+{
+color:red !important;
+font-size: 12px;
 }
