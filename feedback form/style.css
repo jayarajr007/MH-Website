@@ -1,0 +1,169 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, 
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important; 
+}
+section.main
+{
+    height: calc(100% - 122px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 540px;
+    position: relative;
+    background: url(yellow-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.bg-y
+{
+    position: absolute;
+}
+.head
+{
+min-height: 73px;
+background: #fff !important;
+box-shadow: 1px 2px 19px #ccc3;
+}
+.form-sec
+{
+    max-width: 478px;
+margin: auto;
+
+border-radius: 12px;
+box-shadow: 0px 4px 28px rgba(0,0,0,0.100);
+margin: 0px 20px;
+background: #fff;
+
+
+}
+.form-label
+{
+    color: #626262;
+    font-size: 14px;
+}
+.f-head
+{
+
+
+text-align: center;
+padding: 30px 10px 4px 10px;
+}
+.f-head p
+{
+    font-size: 15px;
+    color: #626262;;
+}
+.f-head h3
+{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+.star-list li
+{
+    list-style-type: none;
+    margin: 2px;
+
+}
+.star-list
+{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+.form-section
+{
+    padding: 20px;
+}
+.line
+{
+max-width: 400px;
+margin: auto;
+}
+.s-icons
+{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+
+}
+.s-icons li
+{
+    list-style-type: none;
+    margin-right: 7px;
+}
+.p-details span
+{
+font-size: 13px;
+color: #6c6c6c;
+}
+
+.p-details p
+{
+    font-weight: 500;
+font-size: 14px;
+}
+footer
+{
+    text-align: center;
+    font-size: 14px;
+}
+footer p
+{
+    color: #757575;
+}
+textarea
+{
+    background: #FAFAFA !important;
+    border: none !important;
+    min-height: 174px !important;
+    font-size: 14px !important;
+}
+.btn-primary
+{
+    background: #ED396C !important;
+}
+
+.center-label
+{
+    margin: auto;
+  margin-bottom: auto;
+display: block;
+text-align: center;
+margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 556px) {
+    .p-details {
+  display: none;
+    }
+    .l-s
+    {
+        display: none;
+    }
+    .s-s
+    {
+        display: block !important;
+        max-width: 35px;
+    }
+  }
+  .s-s
+  {
+    display: none;
+  }
+
+  .starrate path:hover
+  {
+ fill: #FAAB17 !important;
+  }
+  .starrate .active-star
+  {
+    fill: #FAAB17 !important;
+  }

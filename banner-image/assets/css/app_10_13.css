@@ -3920,7 +3920,7 @@
     font-size: 37px;
     font-family: Poppins-SemiBold;
     color: #333;
-    line-height: 56px;
+    line-height: 48px;
   }
   @media (max-width: 992px) {
     .banner_section_row_content h1 {
