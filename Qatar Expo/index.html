@@ -143,6 +143,16 @@
             </div>
          </div>
       </div>
+
+
+
+
+
+      <audio id="backgroundMusic" src="assets/img/bg.mp3" loop></audio>
+<button id="playPauseButton" class="music"><i class="fa fa-play"></i></button>
+
+
+
    </section>
    <!--Home Section End-->
 
@@ -565,6 +575,28 @@
    <script src="assets/js/init.js"></script>
    <!--Main js-->
    <script src="assets/js/main.js"></script>
+
+   <script>
+      $(document).ready(function() {
+        var backgroundMusic = document.getElementById("backgroundMusic");
+        var playPauseButton = document.getElementById("playPauseButton");
+      
+        // Initial state
+        var isPlaying = false;
+      
+        // Toggle play/pause and icons when the button is clicked
+        $(playPauseButton).click(function() {
+          if (isPlaying) {
+            backgroundMusic.pause();
+            $(playPauseButton).find('i').removeClass('fa-pause').addClass('fa-play');
+          } else {
+            backgroundMusic.play();
+            $(playPauseButton).find('i').removeClass('fa-play').addClass('fa-pause');
+          }
+          isPlaying = !isPlaying;
+        });
+      });
+      </script>
 </body>
 
 

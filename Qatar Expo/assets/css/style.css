@@ -55,6 +55,29 @@ font-size: 16px;
 	cursor: pointer;
 }
 
+.music
+{
+	position: absolute;
+    bottom: 8px;
+    right: 7px;
+    background: #871520;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+
+	
+
+}
+
+
+
+
+
+
+
 
 
 .s-btn
