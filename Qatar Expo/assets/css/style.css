@@ -37,6 +37,24 @@ body {
 	border: transparent;
 }
 
+.primary-btn
+{
+	background: #dd0d48 none repeat scroll 0 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 13px 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #fff;
+	border: transparent;
+}
+
+.secondary-btn
+{
+
+}
+
 html,
 body {
 	height: 100%;
@@ -344,14 +362,23 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .navbar-nav.get_tickets a {
-	background: #dd0d48 none repeat scroll 0 0;
+	/* background: #dd0d48 none repeat scroll 0 0;
 	font-size: 13px;
 	font-weight: 700;
 	padding: 13px 18px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	border-radius: 3px;
-	color: #fff;
+	color: #fff; */
+	background: #ffffff none repeat scroll 0 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 13px 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #dd0707;
+    border: 1px solid #b5103d;
 }
 
 
