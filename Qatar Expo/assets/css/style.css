@@ -29,11 +29,12 @@ body {
 {
 
 
-    padding: 12px;
+	padding: 12px;
     border-radius: 7px;
     text-align: center;
     margin-bottom: 10px;
-    background: #ffe9eb1f;
+    background: #ffe9eb08;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 .participant h5
