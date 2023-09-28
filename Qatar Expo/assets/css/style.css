@@ -52,7 +52,25 @@ font-size: 16px;
     border-radius: 3px;
     color: #fff;
 	border: transparent;
+	cursor: pointer;
 }
+
+
+
+.s-btn
+{
+    background: #ffffff00 none repeat scroll 0 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 13px 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+	cursor: pointer;
+}
+
 
 .primary-btn
 {
