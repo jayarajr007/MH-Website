@@ -23,8 +23,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.participant
+{
 
+	border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 7px;
+	text-align: center;
+	margin-bottom: 5px;
+}
 
+.participant h5
+{
+color: #fff;
+margin-bottom: 7px;
+font-size: 16px;
+}
 .p-btn {
     background: #dd0d48 none repeat scroll 0 0;
     font-size: 13px;
@@ -1115,7 +1129,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	letter-spacing: 3px;
 	font-size: 40px;
 	display: inline-block;
-	border-top: 2px solid #fff;
+	/* border-top: 2px solid #fff; */
 }
 
 .registration-box h3 span {
@@ -1534,9 +1548,9 @@ font-size: 12px;
 
 
 
-.p-btn {
+/* .p-btn {
 	display: none;
-	}
+	} */
 
 
 @media only screen and (max-width: 991px) {
