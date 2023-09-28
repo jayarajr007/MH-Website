@@ -1586,6 +1586,40 @@ display: none !important;
 
 
 
+  @media only screen and (max-width: 392px) {
+	.logo img
+	{
+		max-width: 282px !important;
+	}
+
+  }
+
+  .s-logo
+  {
+	  display: none !important;
+  }
+
+  @media only screen and (max-width: 991px) {
+	.l-logo
+	{
+		display: none;
+	}
+	.s-logo
+	{
+		display: block !important;
+	}
+	.s-logo img
+	{
+		max-width: 42px !important;
+	}
+
+	nav.fixed-top {
+		position: fixed;
+		padding-top: 4px !important;
+		padding-bottom: 4px !important;
+	}
+
+  }
 
 
 
