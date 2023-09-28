@@ -5,11 +5,9 @@
 01 - IMPORTED CSS
 ==================================================*/
 
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900&amp;display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;display=swap');
 
 /*================================================
 02 - DEFAULT CSS
@@ -22,7 +20,7 @@ body {
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .participant
@@ -226,7 +224,7 @@ li {
 }
 
 .site-heading h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #871520;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -496,7 +494,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .about-box h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #871520;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -668,7 +666,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .attend-left h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #871520;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -689,7 +687,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .attend-text h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -842,7 +840,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .venue-text h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -890,7 +888,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .promo-box p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -1010,7 +1008,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .schedule-details h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -1081,7 +1079,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .speakers-info h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -1097,7 +1095,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .speakers-info p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 2px;
 }
@@ -1120,7 +1118,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .registration-box>p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -1220,7 +1218,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .sponsor-heading h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -1278,7 +1276,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .price-head h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -1290,7 +1288,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .price-head h2 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -1405,7 +1403,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .blog-text h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111;
 	text-transform: capitalize;
 	font-weight: 500;
