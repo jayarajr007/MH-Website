@@ -374,7 +374,7 @@ nav.navbar .nav-item .nav-link.active {
 	color: #871520 !important;
     background: #fff;
     padding: 0px 9px;
-    border-radius: 5px;
+	border-radius: 2px;
 }
 
 nav.fixed-top {
