@@ -1,0 +1,80 @@
+.banner_section .owl-nav .right-nav, .banner_section .owl-nav .left-nav
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.bannerCarousel-kp .owl-nav
+{
+bottom: 0px !important;
+margin: 0px !important;
+}
+
+.Card-MCL:hover
+{
+    box-shadow: 1px 2px 13px #ed396c82;
+    transition: 1s ease;
+}
+
+.Card-MCL
+{
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.Card-MCL h2
+{
+    font-size: 16px;
+    margin: 12px 11px;
+    font-family: 'Poppins-medium';
+}
+.mbt-30
+{
+    margin-bottom: 30px;
+}
+.btn-secondary-2
+{
+    background: white;
+    color: #ed396c;
+    border: 1px solid #ed396c;
+}
+.owl-kp .item img
+{
+    width: auto !important;
+}
+
+
+@media (max-width: 575px) {
+.our-m-courses img
+{
+display: none;
+}
+.our-m-courses
+{
+    background-color: #fff8fa;
+}
+ .our-m-courses .Card-MCL
+ {
+    background-color: #fcdee7;
+    border: 1px solid #ed396c;
+    
+ }
+ .mbt-30
+{
+    margin-bottom: 18px;
+    
+}
+.bannerCarousel-kp h1
+{
+    margin-top: 0px;
+}
+
+}
+
+
